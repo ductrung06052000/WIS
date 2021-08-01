@@ -1,0 +1,137 @@
+*{
+    font-family: 'Arial';
+}
+.header{
+    background-color: rgb(32,86,172);
+    text-align: center;
+}
+.header-top{
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+    height: auto;
+}
+.header-top h1:last-child{
+    margin-top: -15px;
+}
+.nav{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2%;
+}
+.nav-inner{
+    margin: 0 auto;
+    width: 35%;
+    height: 25px;
+}
+.nav-inner ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+}
+.nav-inner li{
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    height: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: auto;
+}
+.nav-inner li a{
+    text-decoration: none;
+    color: white;
+    font-size: 88%;
+    height: auto;
+}
+.nav-inner li:hover{
+    background-color: white;
+}
+.nav-inner li:hover a{
+    color: #2056ac;
+}
+.main{
+    padding-top: 2%;
+}
+.img-main{
+    width: 100%;
+    text-align: center;
+}
+.img-main img{
+    width: 70%;
+}
+
+.main h2{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.main p{
+    text-align: center;
+}
+.bottom-main{
+    display: flex;
+    background-color: rgb(227,240,247);
+    padding-top: 3%;
+    width: 100%;
+}
+.icon-main{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.icon-main:first-child{
+    padding-left: 25%;
+}
+.icon-main-des p{
+    font-size: 12px;
+    word-break: break-word;
+}
+.footer{
+    background-image: url(../imgs/bg_footer.png);
+    width: 100%;
+    height: auto;
+}
+.footer-des{
+    padding-top: 5%;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.footer-icon{
+    text-align: center;
+    height: 60px;
+}
+.footer-icon i{
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #00cccc;
+    width: 1%;
+    font-size: 28px;
+}
+@media only screen and (max-width:1160px){
+    .nav-inner{
+        width: 70%;
+    }
+
+    .footer-icon i {
+        width: 5%;
+    }
+}
+@media only screen and (max-width:600px){
+    .nav-inner{
+        width: 100%;
+    }
+    .icon-main:first-child {
+        padding-left: 7%;
+    }
+}
+
+
+
